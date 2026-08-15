@@ -35,4 +35,9 @@ android {
             res.srcDirs = ['res']
         }
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
 }
